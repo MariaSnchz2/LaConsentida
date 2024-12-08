@@ -1,0 +1,24 @@
+# Ignorar directorio de módulos de npm
+node_modules/
+
+# Archivos de entorno y configuración local
+.env
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directorios de producción y compilación
+dist/
+build/
+
+# Cachés de npm y yarn
+.npm/
+.yarn/
+.pnpm-debug.log*
+
+# Otros
+*.log
+package-lock.json
+package.json

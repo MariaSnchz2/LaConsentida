@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Primary meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Gastro-bar La Consentida</title>
+    <meta name="title" content="Gastro-bar La Consentida" />
+    <meta name="description" content="This is a Restaurant html template" />
+
+    <!-- CSS and images -->
+    <link rel="stylesheet" href="./assets/css/Webstyles.css" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg" />
+
+    <!-- Fav icon -->
+
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- Google font link (if needed)-->
+
+  </head>
+  <body>
+
+    <!-- PRELOADER
+     
+    -->
+    <div class="preload" data-preload>
+    <div class="circle"></div>
+    <p class="text">La Consentida</p>
+    </div>
+
+
+
+    <!--  
+         #TOPBAR 
+         
+    -->
+
+    <div class="topbar">
+      <div class="container">
+        <div class="slider-bg">
+          <img src="assets/images/titulo.png" alt="Imagen centrada" class="imagen-centrada">
+        </div>
+        <li class="slider-item active" data-hero-slider-item>
+          <h1 class="display-1 hero-title slider-reveal">
+            Aquí, el toque único <br>
+            se siente en cada detalle
+          </h1>
+          <p class="body-2 hero-text slider-reveal">
+            Un rincón para disfrutar lo auténtico, sin prisas.
+          </p>
+      </div>
+    </div>
+
+
+    <!--
+           #SLIDER 
+           
+           -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <nav class="navbar" data-navbar>
+
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="50" height="50" alt="LA CONSENTIDA - Inicio">
+          </a>
+
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <a href="#inicio" class="navbar-link hover-underine" id="inicio">
+                <div class="separator"></div>
+                <span class="span">Inicio</span>
+
+
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#carta" class="navbar-link hover-underine">
+                <div class="separator"></div>
+                <span class="span">Carta</span>
+
+
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#sobrenosotros" class="navbar-link hover-underine">
+                <div class="separator"></div>
+                <span class="span">Sobre Nosotros</span>
+
+
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#reservas" class="navbar-link hover-underine">
+                <div class="separator"></div>
+                <span class="span">Reservas</span>
+
+                <li class="navbar-item">
+                  <a href="#contacto" class="navbar-link hover-underine">
+                    <div class="separator"></div>
+                    <span class="span">Contacto</span>
+
+
+              </a>
+            </li>
+
+
+          </ul>
+
+          <div class="text-center">
+            <p class="headline-1 navbar-title">Visítanos</p>
+
+            <address class="body-4">Av. Arroyo del Moro, 12, Local 10, <br>
+              Noroeste, 14011 Córdoba</address>
+
+              <p class="body-4 navbar-text">Horario: Lunes a Sábado 8:00h a 24:00h</p>
+
+              <a href="mailto:gastrobarlaconsentida@gmail.com" class="body-4 sidebar-link">gastrobarlaconsentida@gmail.com</a>
+
+              <div class="separator"></div>
+
+              <p class="contac-label">Reservas</p>
+              <a href="tel:666162091" class="body-1 contact-number hover-underline">666 16 20 91</a>
+          </div>
+        </nav>    
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay"data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    
+
+
+    <main>
+      <article>
+
+                   
+
+            <!-- About Us Section -->
+        <section id="sobrenosotros" class="about-section">
+          <div class="about-content">
+            <h2 class="title-1">Sobre Nosotros</h2>
+            <p class="body-2">
+              En La Consentida, honramos las recetas tradicionales con un toque único y contemporáneo.
+              <br> Nos enorgullece usar ingredientes frescos y de calidad, creando una experiencia culinaria
+              que evoca recuerdos y crea nuevos momentos. <br> Nos dedicamos a hacer que cada plato sea
+              especial, manteniendo siempre el sabor casero que nuestros clientes adoran.
+            </p>
+            <p class="body-2">
+              Nuestra misión es brindar a cada comensal una experiencia que combine lo mejor de la
+              tradición con un toque moderno y único, en un ambiente acogedor y familiar.
+            </p>
+          </div>
+
+        </section>
+
+
+        <!-- Menu Section -->
+        <section id="carta" class="menu-section">
+          <h2 class="title-1">Nuestra Carta</h2>
+        
+          <!-- Carrpusel -->
+          <div class="carousel-container">
+            <div class="carousel">
+              <!-- Dishes -->
+              <div class="carousel-item">
+                <img src="./assets/images/food1.jpg" alt="Croquetas de Rabo de Toro" class="carousel-image">
+                <p class="menu-item-name">Croquetas de Rabo de Toro - 12.00€</p>
+              </div>
+        
+              <div class="carousel-item">
+                <img src="./assets/images/food2.jpg" alt="Presa Ibérica" class="carousel-image">
+                <p class="menu-item-name">Presa Ibérica - 16.00€</p>
+              </div>
+        
+              <div class="carousel-item">
+                <img src="./assets/images/food3.jpg" alt="Calamares" class="carousel-image">
+                <p class="menu-item-name">Calamares - 12.00€</p>
+              </div>
+        
+              <div class="carousel-item">
+                <img src="./assets/images/food4.jpg" alt="Tapa de Queso con Nueces" class="carousel-image">
+                <p class="menu-item-name">Tapa de Queso con Nueces - 4.00€</p>
+              </div>
+            </div>
+        
+            <!-- Controls -->
+            <button class="carousel-prev" id="prevBtn">❮</button>
+            <button class="carousel-next" id="nextBtn">❯</button>
+          </div>
+        </section>
+
+          <!-- RESERVATIONS -->
+          <section id="reservas" class="reservation-section">
+            <h2 class="title-1">Reserva tu mesa</h2>
+            <form id="reservationForm" class="reservation-form" method="POST" action="http://localhost:3000/reservar" enctype="application/x-www-form-urlencoded">
+              
+              <!-- Reservation date -->
+              <div class="form-group">
+                <label>Fecha:</label>
+                <input type="date" id="reservationDate" name="reservationDate" required>
+              </div>
+
+              <!-- Shift -->
+              <div class="form-group">
+              <label>Turno:</label>
+                <select id="reservationTurno" name="reservationTurno" required>
+                  <option value="mediodia">Mediodía</option>
+                  <option value="noche">Noche</option>
+                </select>
+              </div>
+
+              <!-- Reservation time -->
+              <div class="form-group">
+                <label>Hora:</label>
+                <input type="time" id="reservationHour" name="reservationHour" required>
+              </div>
+
+              <!-- People -->
+              <div class="form-group">
+                <label>Personas:</label>
+                <input type="number" id="reservationPersonas" name="reservationPersonas" min="1" max="20" required>
+              </div>
+
+              <button type="submit">Reservar</button>
+            </form>
+
+            <!-- Confirmation message -->
+            <div id="reservation-confirmation" class="confirmation-message hidden">
+              ¡Tu reserva ha sido registrada! Nos pondremos en contacto contigo para confirmarla.
+            </div>
+          </section>
+
+
+           <li class="navbar-item">
+             <a href="#carta" class="navbar-link hover-underline">
+             <span class="span">Carta</span>
+             </a>
+            </li>
+
+ 
+
+            <li class="slider-item active" data-hero-slider-item>
+
+              <div class="slider-bg">
+                <img src="./assets/images/hero-slider-3.jpg" width="1880" height="950" alt=""
+                class="img-cover">
+              </div>
+              <h1 class="display-1 hero-title slider-reveal">
+                Cada bocado <br>
+                es una experiencia
+              </h1>
+
+
+          </ul>
+
+          <section id="contacto" class="contact-section">
+            <div class="contact-info">
+              <p>
+                Información y Reservas: <br>
+                <strong>666 16 20 91</strong> <br>
+                Contáctanos: <strong>gastrobarlaconsentida@gmail.com</strong>
+              </p>
+
+              <a href="https://www.instagram.com/la.consentida_24/?igsh=MjY0bW1lbTZtMHVo" target="_blank" class="instagram-link">
+                <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon> Síguenos en Instagram
+              </a>
+            </div>
+            </div>
+          </section>
+          
+
+          
+
+      </article>
+
+    
+    </main>
+
+    
+
+    <!-- Custom JS link-->
+    <script src="./assets/js/LaConsentida.js"></script>
+
+    <!-- Ionicon link-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+
+  <footer class="footer">
+    <img src="assets/images/logo.png" alt="Logo La Consentida">
+  </footer>
+  
+
+</html>
